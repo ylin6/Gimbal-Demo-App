@@ -29,5 +29,19 @@ class ViewController: UIViewController, GMBLPlaceManagerDelegate, GMBLCommunicat
         // Dispose of any resources that can be recreated.
     }
 
+    func placeManager(manager: GMBLPlaceManager, didBeginVisit visit: GMBLVisit){
+        // Do something here
+        keysLabel.text = "YOUR KEYS ARE NEARBY";
+        print("Here");
+    }
+    
+    func placeManager(manager: GMBLPlaceManager, didEndVisit visit: GMBLVisit){
+        // Do something here
+        keysLabel.text = "OOPS, YOU FORGOT YOUR KEYS!";
+    }
+
+    func communicationManager(manager: GMBLCommunicationManager!, presentLocalNotificationsForCommunications communications: [AnyObject]!, forVisit visit: GMBLVisit!) -> [AnyObject]! {
+        return communications;
+    }
 }
 
