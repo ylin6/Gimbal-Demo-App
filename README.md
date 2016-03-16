@@ -7,4 +7,4 @@ The app can be simply be run in XCode as long as the proper Gimbal frameworks ar
 
 The documentation used is located at: https://docs.gimbal.com/.
 
-The slides for the presentation can be found in the repo.
+The slides for the presentation can be found in the repo as Bluetooth.pdf.
