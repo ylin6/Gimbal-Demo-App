@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController, GMBLPlaceManagerDelegate, GMBLCommunicationManagerDelegate {
     
@@ -38,6 +39,8 @@ class ViewController: UIViewController, GMBLPlaceManagerDelegate, GMBLCommunicat
     func placeManager(manager: GMBLPlaceManager, didEndVisit visit: GMBLVisit){
         // What to do when Phone and Gimbal are out of range
         keysLabel.text = "OOPS, YOU FORGOT YOUR KEYS!";
+        let systemSoundID: SystemSoundID = 1323;
+        AudioServicesPlaySystemSound (systemSoundID);
     }
 
     func communicationManager(manager: GMBLCommunicationManager!, presentLocalNotificationsForCommunications communications: [AnyObject]!, forVisit visit: GMBLVisit!) -> [AnyObject]! {
