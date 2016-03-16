@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3804571C98F93900614D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3804561C98F93900614D33 /* AppDelegate.swift */; };
+		CA3804591C98F93900614D33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3804581C98F93900614D33 /* ViewController.swift */; };
+		CA38045C1C98F93900614D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA38045A1C98F93900614D33 /* Main.storyboard */; };
+		CA38045F1C98F93900614D33 /* Gimbal_Demo_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA38045D1C98F93900614D33 /* Gimbal_Demo_App.xcdatamodeld */; };
+		CA3804611C98F93900614D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3804601C98F93900614D33 /* Assets.xcassets */; };
+		CA3804641C98F93900614D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3804621C98F93900614D33 /* LaunchScreen.storyboard */; };
+		CA38046F1C98F93900614D33 /* Gimbal_Demo_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA38046E1C98F93900614D33 /* Gimbal_Demo_AppTests.swift */; };
+		CA38047A1C98F93900614D33 /* Gimbal_Demo_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3804791C98F93900614D33 /* Gimbal_Demo_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA38046B1C98F93900614D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA38044B1C98F93800614D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3804521C98F93800614D33;
+			remoteInfo = "Gimbal Demo App";
+		};
+		CA3804761C98F93900614D33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA38044B1C98F93800614D33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3804521C98F93800614D33;
+			remoteInfo = "Gimbal Demo App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA3804531C98F93800614D33 /* Gimbal Demo App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gimbal Demo App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3804561C98F93900614D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA3804581C98F93900614D33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA38045B1C98F93900614D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA38045E1C98F93900614D33 /* Gimbal_Demo_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gimbal_Demo_App.xcdatamodel; sourceTree = "<group>"; };
+		CA3804601C98F93900614D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3804631C98F93900614D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3804651C98F93900614D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA38046A1C98F93900614D33 /* Gimbal Demo AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gimbal Demo AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA38046E1C98F93900614D33 /* Gimbal_Demo_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gimbal_Demo_AppTests.swift; sourceTree = "<group>"; };
+		CA3804701C98F93900614D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3804751C98F93900614D33 /* Gimbal Demo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gimbal Demo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3804791C98F93900614D33 /* Gimbal_Demo_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gimbal_Demo_AppUITests.swift; sourceTree = "<group>"; };
+		CA38047B1C98F93900614D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3804501C98F93800614D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3804671C98F93900614D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3804721C98F93900614D33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA38044A1C98F93800614D33 = {
+			isa = PBXGroup;
+			children = (
+				CA3804551C98F93800614D33 /* Gimbal Demo App */,
+				CA38046D1C98F93900614D33 /* Gimbal Demo AppTests */,
+				CA3804781C98F93900614D33 /* Gimbal Demo AppUITests */,
+				CA3804541C98F93800614D33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3804541C98F93800614D33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3804531C98F93800614D33 /* Gimbal Demo App.app */,
+				CA38046A1C98F93900614D33 /* Gimbal Demo AppTests.xctest */,
+				CA3804751C98F93900614D33 /* Gimbal Demo AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3804551C98F93800614D33 /* Gimbal Demo App */ = {
+			isa = PBXGroup;
+			children = (
+				CA3804561C98F93900614D33 /* AppDelegate.swift */,
+				CA3804581C98F93900614D33 /* ViewController.swift */,
+				CA38045A1C98F93900614D33 /* Main.storyboard */,
+				CA3804601C98F93900614D33 /* Assets.xcassets */,
+				CA3804621C98F93900614D33 /* LaunchScreen.storyboard */,
+				CA3804651C98F93900614D33 /* Info.plist */,
+				CA38045D1C98F93900614D33 /* Gimbal_Demo_App.xcdatamodeld */,
+			);
+			path = "Gimbal Demo App";
+			sourceTree = "<group>";
+		};
+		CA38046D1C98F93900614D33 /* Gimbal Demo AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA38046E1C98F93900614D33 /* Gimbal_Demo_AppTests.swift */,
+				CA3804701C98F93900614D33 /* Info.plist */,
+			);
+			path = "Gimbal Demo AppTests";
+			sourceTree = "<group>";
+		};
+		CA3804781C98F93900614D33 /* Gimbal Demo AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3804791C98F93900614D33 /* Gimbal_Demo_AppUITests.swift */,
+				CA38047B1C98F93900614D33 /* Info.plist */,
+			);
+			path = "Gimbal Demo AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3804521C98F93800614D33 /* Gimbal Demo App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA38047E1C98F93900614D33 /* Build configuration list for PBXNativeTarget "Gimbal Demo App" */;
+			buildPhases = (
+				CA38044F1C98F93800614D33 /* Sources */,
+				CA3804501C98F93800614D33 /* Frameworks */,
+				CA3804511C98F93800614D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gimbal Demo App";
+			productName = "Gimbal Demo App";
+			productReference = CA3804531C98F93800614D33 /* Gimbal Demo App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA3804691C98F93900614D33 /* Gimbal Demo AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3804811C98F93900614D33 /* Build configuration list for PBXNativeTarget "Gimbal Demo AppTests" */;
+			buildPhases = (
+				CA3804661C98F93900614D33 /* Sources */,
+				CA3804671C98F93900614D33 /* Frameworks */,
+				CA3804681C98F93900614D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA38046C1C98F93900614D33 /* PBXTargetDependency */,
+			);
+			name = "Gimbal Demo AppTests";
+			productName = "Gimbal Demo AppTests";
+			productReference = CA38046A1C98F93900614D33 /* Gimbal Demo AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA3804741C98F93900614D33 /* Gimbal Demo AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3804841C98F93900614D33 /* Build configuration list for PBXNativeTarget "Gimbal Demo AppUITests" */;
+			buildPhases = (
+				CA3804711C98F93900614D33 /* Sources */,
+				CA3804721C98F93900614D33 /* Frameworks */,
+				CA3804731C98F93900614D33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3804771C98F93900614D33 /* PBXTargetDependency */,
+			);
+			name = "Gimbal Demo AppUITests";
+			productName = "Gimbal Demo AppUITests";
+			productReference = CA3804751C98F93900614D33 /* Gimbal Demo AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA38044B1C98F93800614D33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yucheng Lin";
+				TargetAttributes = {
+					CA3804521C98F93800614D33 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CA3804691C98F93900614D33 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CA3804521C98F93800614D33;
+					};
+					CA3804741C98F93900614D33 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CA3804521C98F93800614D33;
+					};
+				};
+			};
+			buildConfigurationList = CA38044E1C98F93800614D33 /* Build configuration list for PBXProject "Gimbal Demo App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA38044A1C98F93800614D33;
+			productRefGroup = CA3804541C98F93800614D33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3804521C98F93800614D33 /* Gimbal Demo App */,
+				CA3804691C98F93900614D33 /* Gimbal Demo AppTests */,
+				CA3804741C98F93900614D33 /* Gimbal Demo AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3804511C98F93800614D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3804641C98F93900614D33 /* LaunchScreen.storyboard in Resources */,
+				CA3804611C98F93900614D33 /* Assets.xcassets in Resources */,
+				CA38045C1C98F93900614D33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3804681C98F93900614D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3804731C98F93900614D33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA38044F1C98F93800614D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3804591C98F93900614D33 /* ViewController.swift in Sources */,
+				CA38045F1C98F93900614D33 /* Gimbal_Demo_App.xcdatamodeld in Sources */,
+				CA3804571C98F93900614D33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3804661C98F93900614D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA38046F1C98F93900614D33 /* Gimbal_Demo_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3804711C98F93900614D33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA38047A1C98F93900614D33 /* Gimbal_Demo_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA38046C1C98F93900614D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3804521C98F93800614D33 /* Gimbal Demo App */;
+			targetProxy = CA38046B1C98F93900614D33 /* PBXContainerItemProxy */;
+		};
+		CA3804771C98F93900614D33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3804521C98F93800614D33 /* Gimbal Demo App */;
+			targetProxy = CA3804761C98F93900614D33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA38045A1C98F93900614D33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA38045B1C98F93900614D33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA3804621C98F93900614D33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3804631C98F93900614D33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA38047C1C98F93900614D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA38047D1C98F93900614D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA38047F1C98F93900614D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gimbal Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.yuchengl.Gimbal-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA3804801C98F93900614D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gimbal Demo App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.yuchengl.Gimbal-Demo-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA3804821C98F93900614D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gimbal Demo AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.yuchengl.Gimbal-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gimbal Demo App.app/Gimbal Demo App";
+			};
+			name = Debug;
+		};
+		CA3804831C98F93900614D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Gimbal Demo AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.yuchengl.Gimbal-Demo-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gimbal Demo App.app/Gimbal Demo App";
+			};
+			name = Release;
+		};
+		CA3804851C98F93900614D33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gimbal Demo AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.yuchengl.Gimbal-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gimbal Demo App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CA3804861C98F93900614D33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Gimbal Demo AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "in.yuchengl.Gimbal-Demo-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Gimbal Demo App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA38044E1C98F93800614D33 /* Build configuration list for PBXProject "Gimbal Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA38047C1C98F93900614D33 /* Debug */,
+				CA38047D1C98F93900614D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA38047E1C98F93900614D33 /* Build configuration list for PBXNativeTarget "Gimbal Demo App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA38047F1C98F93900614D33 /* Debug */,
+				CA3804801C98F93900614D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA3804811C98F93900614D33 /* Build configuration list for PBXNativeTarget "Gimbal Demo AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3804821C98F93900614D33 /* Debug */,
+				CA3804831C98F93900614D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA3804841C98F93900614D33 /* Build configuration list for PBXNativeTarget "Gimbal Demo AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3804851C98F93900614D33 /* Debug */,
+				CA3804861C98F93900614D33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA38045D1C98F93900614D33 /* Gimbal_Demo_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA38045E1C98F93900614D33 /* Gimbal_Demo_App.xcdatamodel */,
+			);
+			currentVersion = CA38045E1C98F93900614D33 /* Gimbal_Demo_App.xcdatamodel */;
+			path = Gimbal_Demo_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA38044B1C98F93800614D33 /* Project object */;
+}
