@@ -30,13 +30,13 @@ class ViewController: UIViewController, GMBLPlaceManagerDelegate, GMBLCommunicat
     }
 
     func placeManager(manager: GMBLPlaceManager, didBeginVisit visit: GMBLVisit){
-        // Do something here
+        // What to do when Phone and Gimbal are in range
         keysLabel.text = "YOUR KEYS ARE NEARBY";
         print("Here");
     }
     
     func placeManager(manager: GMBLPlaceManager, didEndVisit visit: GMBLVisit){
-        // Do something here
+        // What to do when Phone and Gimbal are out of range
         keysLabel.text = "OOPS, YOU FORGOT YOUR KEYS!";
     }
 
