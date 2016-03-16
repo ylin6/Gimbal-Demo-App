@@ -17,7 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Gimbal.setAPIKey("520d1b1a-1581-41af-89d2-899d53f83ba7", options: nil);
+        if (!GMBLPlaceManager.isMonitoring()){
+            GMBLPlaceManager.startMonitoring();
+            print("Start Monitoring");
+        }
         return true
+    }
+    
+    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
+        GMBLCommunicationManager.startReceivingCommunications();
     }
 
     func applicationWillResignActive(application: UIApplication) {
